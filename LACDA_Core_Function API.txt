@@ -1,0 +1,24 @@
+LACDA_Core_Function API
+
+get_like(Permalink):			Return the amount of likes the post gets
+get_share(Permalink):			Return the amount of shares the post gets
+get_comment(Permalink):		Return the amount of comments the post gets
+get_reach(Permaink):			Return the amount of people that the post was served to
+
+get_reaction_ratio(Permalink):		Return a dictionary consisting of ratio like/reach, share/reach, 
+					comment/reach to see reaction efficiency
+get_topic_reaction(topic):		Return a dictionary consisting of total like, share, comment and
+					their ratio with reach of every post within a chosen topic
+arrange_topic():			Helper method for get_topic_reaction(topic). Return a dictionary 
+					consisting of topics in the topic column. Each topic is a list of 
+					Permalinks of posts that belong to the topic.
+
+get_audience_ratio(Permalink):		Return the ratio of audience watching till the end of the video 
+					over the total amount of people watching the video.
+get_average_duration(Permalink):	Return the average length of the video where people stop watching.
+get_duration_ratio(Permalink):		Return the ratio between average watch length and full length time 
+					of the video.
+
+get_promotion_ratio(Permalink):	Return a dictionary consisting of audience, watch time and reach 
+					keys. Each of these keys contains the ratio of data before/data 
+					after promotion to see the efficiency of boosted post.

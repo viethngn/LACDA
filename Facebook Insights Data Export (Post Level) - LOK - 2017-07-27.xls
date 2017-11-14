@@ -1,0 +1,1739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                      <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+                       xmlns:x="urn:schemas-microsoft-com:office:excel"
+                       xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+                       xmlns:html="http://www.w3.org/TR/REC-html40">
+                      <Styles>
+                        <Style ss:ID="s17">
+                          <NumberFormat ss:Format="m/d/yy"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s18">
+                          <NumberFormat ss:Format="m/d/yy"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s19">
+                          <NumberFormat ss:Format="m/yy"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s20">
+                          <NumberFormat ss:Format="m/yy"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s21">
+                          <NumberFormat ss:Format="m/d/yy h:mm AM/PM"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s22">
+                          <NumberFormat ss:Format="m/d/yy h:mm AM/PM"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s23">
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s24">
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s25">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s26">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s27">
+                         <NumberFormat ss:Format="0"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s28">
+                         <NumberFormat ss:Format="0"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s29">
+                         <NumberFormat ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* (#,##0.00);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s30">
+                         <NumberFormat ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* (#,##0.00);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s31">
+                         <NumberFormat ss:Format="Percent"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s32">
+                         <NumberFormat ss:Format="Percent"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s33">
+                         <NumberFormat ss:Format="YYYY-mm-dd"/>
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                        </Style>
+                        <Style ss:ID="s34">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s35">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                      </Styles>
+<Worksheet ss:Name="Key Metrics">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="14" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="15" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="16" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="17" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="18" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="19" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="20" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="21" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="22" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="23" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="24" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="25" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="26" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="27" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="28" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="29" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="30" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="31" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="32" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="33" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Audience Targeting</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_impressions_unique:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_impressions_organic_unique:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_impressions_paid_unique:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_impressions:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_impressions_organic:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_impressions_paid:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_engaged_users:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_consumptions_unique:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_consumptions:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_negative_feedback:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_impressions_fan:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_impressions_fan_unique:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_impressions_fan_paid:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_impressions_fan_paid_unique:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_engaged_fan:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_video_complete_views_organic_unique:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_video_complete_views_organic:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_video_complete_views_paid_unique:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_video_complete_views_paid:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_video_views_organic_unique:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_video_views_organic:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_video_views_paid_unique:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_video_views_paid:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_video_avg_time_watched:lifetime</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">post_video_length:lifetime</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The total number of people your Page post was served to. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who saw your Page post in news feed or ticker, or on your Page's timeline. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people your advertised Page post was served to. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of impressions of your Page post. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of impressions of your post in News Feed or ticker or on your Page's Timeline. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of impressions of your Page post in an Ad or Sponsored Story. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of unique people who engaged in certain ways with your Page post, for example by commenting on, liking, sharing, or clicking upon particular elements of the post. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who clicked anywhere in your post. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of clicks anywhere in your post. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of times people have given negative feedback to your post. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of impressions of your Page post to people who have liked your Page. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who saw your Page post because they've liked your Page (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of paid impressions of your Page post to people who have liked your Page. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who like your Page and who saw your Page post in an ad or sponsored story. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who have liked your Page and clicked anywhere in your posts. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed to 95% of its length without any paid promotion. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed to 95% of its length without any paid promotion. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed to 95% of its length after paid promotion. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed to 95% of its length after paid promotion. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed for more than 3 seconds without any paid promotion. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed for more than 3 seconds without any paid promotion. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed more than 3 seconds after paid promotion. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed more than 3 seconds after paid promotion. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Average time video viewed (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Length of a video post (Total Count)</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1911244905754823</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1911244905754823/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #39: Trên đời này có gì là miễn phí không ? (Trừ Winrar)
+
+Cảnh giác trước những lời quảng cáo về “miễn phí” nhé, có thể bạn sẽ phải đánh đổi một thứ gì đó mà mình không biết đó :( Chỉ có LOK là miễn phí thôi 😌 Thế nên nếu hay thì thả $ và share để bọn mình có động lực nhé 😘😘
+
+https://youtu.be/n9vKtVJrKxY
+
+---
+Các video khác trong cùng series #LOKKinhTe dành cho các nhà đầu tư tương lai
+- LOK #2: Kinh tế học âm phủ →  https://goo.gl/25occd 
+- LOK #11: Rửa tiền là gì? → https://goo.gl/GXmH27
+- LOK #38: Có phải cứ bán được nhiều là càng lợi ? → goo.gl/gqAAC8
+
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nha: https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-22T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">221231</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">65870</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">117906</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">319665</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">111437</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">141389</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12885</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">11417</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">14454</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">18</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">71895</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">36177</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4180</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5850</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5850</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">7399</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">7399</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">30879</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">32199</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">53130</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">59669</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16671</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">109075</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908206009392046</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1908206009392046/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #38: Có phải cứ bán được nhiều là càng lợi ?
+
+Bạn có kinh doanh qua Facebook không ? Bạn đã đóng thuế chưa ? Có phải càng bán nhiều càng có lợi không ? Làm thế nào để cả hai đều đạt sự thoả mãn tối đa - cả người tiêu dùng và doanh nghiệp ? Làm sao để nấu một bát phở ngon ? Hãy xem đến cuối video để tìm hiểu nhé! 
+#LOKKinhTe 
+Xem trên Youtube: https://youtu.be/m19DWNhvQ6w
+
+Nếu thấy hay hãy thả $ và comment bạn muốn LOK làm về chủ đề gì nhé!
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nà: https://tinyurl.com/TienDeRaTien
+---
+Các video khác trong series LOK Kinh tế:
+ - LOK #11: Nợ công là gì ? → https://goo.gl/wae9ZM
+ - LOK #37: Sự tích ngân hàng → https://goo.gl/hn4f6T</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-15T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">334704</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">106267</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">151269</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">504506</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">165589</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">188258</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">21220</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">18954</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">24324</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">14</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">81998</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">37717</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5206</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6801</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6989</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5848</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5848</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">49427</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">54475</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">57068</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">62868</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">18900</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">178089</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908312159381431</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1908312159381431:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Thông báo dành cho những ai mê tiền!
+(Hưởng ứng series LOK Kinh tế)
+
+Có lẽ nhiều bạn khi đọc Doraemon đã từng mơ ước đến chiếc &quot;Gương nhân bản&quot; - bảo bối biến 1 thành 2 khi chúng ta soi một vật gì đó lên bề măt. Đồ chơi, đồ ăn, tiền x2 trong nháy mắt (làm giàu không khó). Có lẽ, một ngày khi công nghệ nhân bản phát triển đến mức trở nên phổ biến, điều đó sẽ trở thành hiên thực, chỉ là thực tại đó có thể cách chúng ta cả trăm năm. 
+
+Nhưng bạn có biết, mỗi chúng ta đều đang nắm trong tay quyền năng nhân bản đó -  khả năng làm giàu chân chính bằng cách làm cho đồng tiền sinh sôi nảy nở. Đúng! Chúng tớ đang nói về các hình thức đầu tư tài chính cá nhân! 
+
+Tiết kiệm là quốc sách, nhưng một trong những quy tắc làm giàu mà ai cũng biết đó là: đồng tiền đứng yên là đồng tiền bị thui chột. Bản chất của tiền tệ là xoay vòng, và giờ đây phương châm của thế kỉ mới là: Tiết kiệm để đầu tư!
+
+Chúng tớ muốn thông báo cho các bạn về một dự án lớn của LOK với mục đích thay đổi tư duy của giới trẻ Việt Nam về đầu tư tài chính cá nhân thông qua bộ sản phẩm truyền tải kiến thức mang phong cách sinh động, hấp dẫn và đầy cuốn hút! Một bộ ấn phẩm đa mảng (comic, tuyến khái niệm, chiến lược, thông tin thị trường) chứa đựng những kĩ năng cần thiết cho người mới bắt đầu với đầu tư tài chính, hay như LOK chúng tớ thường gọi vui với nhau là &quot;Cẩm nang cho những ai muốn độc lập tự do&quot;. Thật vậy, nếu bạn mơ đến một ngày đồng tiền sẽ làm việc cho mình, thay vì phải vất vả chạy theo nó để rồi đến cuối tháng bệnh viêm màng túi lại gõ cửa ghé thăm, thì đây là bộ ấn phẩm dành cho bạn!
+
+Để phát triển nội dung và đạt tiến độ ra mắt khán giả vào tháng 10 này, chúng tớ có một bản thăm dò nho nhỏ về thói quen cũng như hiểu biết, tiếp xúc của các bạn về việc tiết kiệm, cũng như đầu tư tài chính. Chúng tớ nghĩ rằng, đã viết, đã truyền tải thì hãy viết, hãy truyền tải những gì các bạn cần, muốn, và thực sự có ích cho các bạn. Không còn những lí thuyết giáo điều, những định lí khô khan, bộ ấn phẩm này hứa hẹn mở ra cho bạn một góc nhìn mới về &quot;tiền đẻ ra tiền&quot;.
+
+Mời các bạn điền survey dưới link sau - LOK xin chân thành cảm ơn các bạn!
+https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-14T06:49:33.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">22101</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16232</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">35140</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">26149</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2234</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2038</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2992</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">25859</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16123</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1877</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1905515619661085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1905515619661085:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Tuesday Trivia đã quay lại!! 🎉🎉🎉
+
+Cùng nhớ lại những gì LOK đã chia sẻ trong tuần qua nhé.
+Gợi ý cho các bạn cá vàng hay quên nằm ở đây :p
+Tiền từ đâu đẻ ra: https://goo.gl/2VyQNM
+
+#TuesdayTrivia</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-09T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">11922</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10647</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">18800</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">17179</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">959</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">738</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1068</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16597</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10346</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">895</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1903191989893448</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1903191989893448/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #37: Sự tích ngân hàng
+
+Bạn có biết, ngân hàng là thành phần quan trọng nhất trong hệ thống tài chính ? Nhưng ngân hàng từ đâu mà có ? Lợi nhuận của ngân hàng đến từ đâu ? Làm gì khi Sùng ôm tiền chạy sang Bắc Triều Tiên ?
+
+https://youtu.be/-P4wsnk98II
+#LOKKinhTe #TaleOfBanks
+
+Đố các bạn biết, ngân hàng đầu tiên xuất hiện ở đâu ?
+Các bạn còn muốn nghe chuyện gì về Kinh tế học ? Hãy thả $ và comment cho LOK biết nhé!
+
+---
+Các sản phẩm cùng chủ đề đồng tiền:
+  - LOK #36: Tiền từ đâu đẻ ra? : https://goo.gl/F6kVpt
+  - LOK #1: Hội đốt tiền : https://goo.gl/baV8yK</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-08T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">928703</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">573830</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">130855</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1512518</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">915671</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">147567</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">66363</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">63042</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">81206</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">37</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">101866</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">42338</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6957</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">72707</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">72707</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6876</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">7099</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">276495</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">286904</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">51136</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">53223</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">45842</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">261374</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1900663656812948</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1900663656812948/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #36: Tiền từ đâu đẻ ra?
+
+Hẳn là từ nhà máy in tiền rồi!
+Nhưng liệu bạn đã biết Việt Nam có tiền giấy trước châu Âu tận 200 năm lận??!! 
+
+https://youtu.be/CDJYjW9qUoY</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-01T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">167289</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">48811</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">94341</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">224883</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">81420</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">107165</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10316</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9713</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12164</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">59467</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">31779</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3996</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4469</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4651</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3240</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3240</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">24269</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">26410</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">41435</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">43042</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">23485</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">218601</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1901130950099552</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1901130950099552:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Các bạn đã xem 2 video của LOK về đạo Phật chưa? Các bạn nghĩ thế nào về quan điểm dưới đây về đạo Phật của Frederick Nietzsche?
+
+---
+- Đạo Phật phần 1: goo.gl/1GqoGQ
+- Đạo Phật phần 2: goo.gl/K73H43</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-06-30T07:00:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16964</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">13693</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">27051</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">22694</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1562</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1311</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2370</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">21858</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">13213</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1368</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+
+<Worksheet ss:Name="Lifetime Talking About This(...">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Audience Targeting</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">share</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">like</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">comment</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of unique people who created a story about your Page post by interacting with it. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1911244905754823</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1911244905754823/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #39: Trên đời này có gì là miễn phí không ? (Trừ Winrar)
+
+Cảnh giác trước những lời quảng cáo về “miễn phí” nhé, có thể bạn sẽ phải đánh đổi một thứ gì đó mà mình không biết đó :( Chỉ có LOK là miễn phí thôi 😌 Thế nên nếu hay thì thả $ và share để bọn mình có động lực nhé 😘😘
+
+https://youtu.be/n9vKtVJrKxY
+
+---
+Các video khác trong cùng series #LOKKinhTe dành cho các nhà đầu tư tương lai
+- LOK #2: Kinh tế học âm phủ →  https://goo.gl/25occd 
+- LOK #11: Rửa tiền là gì? → https://goo.gl/GXmH27
+- LOK #38: Có phải cứ bán được nhiều là càng lợi ? → goo.gl/gqAAC8
+
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nha: https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-22T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">575</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2497</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">147</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908206009392046</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1908206009392046/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #38: Có phải cứ bán được nhiều là càng lợi ?
+
+Bạn có kinh doanh qua Facebook không ? Bạn đã đóng thuế chưa ? Có phải càng bán nhiều càng có lợi không ? Làm thế nào để cả hai đều đạt sự thoả mãn tối đa - cả người tiêu dùng và doanh nghiệp ? Làm sao để nấu một bát phở ngon ? Hãy xem đến cuối video để tìm hiểu nhé! 
+#LOKKinhTe 
+Xem trên Youtube: https://youtu.be/m19DWNhvQ6w
+
+Nếu thấy hay hãy thả $ và comment bạn muốn LOK làm về chủ đề gì nhé!
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nà: https://tinyurl.com/TienDeRaTien
+---
+Các video khác trong series LOK Kinh tế:
+ - LOK #11: Nợ công là gì ? → https://goo.gl/wae9ZM
+ - LOK #37: Sự tích ngân hàng → https://goo.gl/hn4f6T</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-15T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">974</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3103</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">308</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908312159381431</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1908312159381431:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Thông báo dành cho những ai mê tiền!
+(Hưởng ứng series LOK Kinh tế)
+
+Có lẽ nhiều bạn khi đọc Doraemon đã từng mơ ước đến chiếc &quot;Gương nhân bản&quot; - bảo bối biến 1 thành 2 khi chúng ta soi một vật gì đó lên bề măt. Đồ chơi, đồ ăn, tiền x2 trong nháy mắt (làm giàu không khó). Có lẽ, một ngày khi công nghệ nhân bản phát triển đến mức trở nên phổ biến, điều đó sẽ trở thành hiên thực, chỉ là thực tại đó có thể cách chúng ta cả trăm năm. 
+
+Nhưng bạn có biết, mỗi chúng ta đều đang nắm trong tay quyền năng nhân bản đó -  khả năng làm giàu chân chính bằng cách làm cho đồng tiền sinh sôi nảy nở. Đúng! Chúng tớ đang nói về các hình thức đầu tư tài chính cá nhân! 
+
+Tiết kiệm là quốc sách, nhưng một trong những quy tắc làm giàu mà ai cũng biết đó là: đồng tiền đứng yên là đồng tiền bị thui chột. Bản chất của tiền tệ là xoay vòng, và giờ đây phương châm của thế kỉ mới là: Tiết kiệm để đầu tư!
+
+Chúng tớ muốn thông báo cho các bạn về một dự án lớn của LOK với mục đích thay đổi tư duy của giới trẻ Việt Nam về đầu tư tài chính cá nhân thông qua bộ sản phẩm truyền tải kiến thức mang phong cách sinh động, hấp dẫn và đầy cuốn hút! Một bộ ấn phẩm đa mảng (comic, tuyến khái niệm, chiến lược, thông tin thị trường) chứa đựng những kĩ năng cần thiết cho người mới bắt đầu với đầu tư tài chính, hay như LOK chúng tớ thường gọi vui với nhau là &quot;Cẩm nang cho những ai muốn độc lập tự do&quot;. Thật vậy, nếu bạn mơ đến một ngày đồng tiền sẽ làm việc cho mình, thay vì phải vất vả chạy theo nó để rồi đến cuối tháng bệnh viêm màng túi lại gõ cửa ghé thăm, thì đây là bộ ấn phẩm dành cho bạn!
+
+Để phát triển nội dung và đạt tiến độ ra mắt khán giả vào tháng 10 này, chúng tớ có một bản thăm dò nho nhỏ về thói quen cũng như hiểu biết, tiếp xúc của các bạn về việc tiết kiệm, cũng như đầu tư tài chính. Chúng tớ nghĩ rằng, đã viết, đã truyền tải thì hãy viết, hãy truyền tải những gì các bạn cần, muốn, và thực sự có ích cho các bạn. Không còn những lí thuyết giáo điều, những định lí khô khan, bộ ấn phẩm này hứa hẹn mở ra cho bạn một góc nhìn mới về &quot;tiền đẻ ra tiền&quot;.
+
+Mời các bạn điền survey dưới link sau - LOK xin chân thành cảm ơn các bạn!
+https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-14T06:49:33.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">441</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">32</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1905515619661085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1905515619661085:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Tuesday Trivia đã quay lại!! 🎉🎉🎉
+
+Cùng nhớ lại những gì LOK đã chia sẻ trong tuần qua nhé.
+Gợi ý cho các bạn cá vàng hay quên nằm ở đây :p
+Tiền từ đâu đẻ ra: https://goo.gl/2VyQNM
+
+#TuesdayTrivia</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-09T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">352</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1903191989893448</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1903191989893448/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #37: Sự tích ngân hàng
+
+Bạn có biết, ngân hàng là thành phần quan trọng nhất trong hệ thống tài chính ? Nhưng ngân hàng từ đâu mà có ? Lợi nhuận của ngân hàng đến từ đâu ? Làm gì khi Sùng ôm tiền chạy sang Bắc Triều Tiên ?
+
+https://youtu.be/-P4wsnk98II
+#LOKKinhTe #TaleOfBanks
+
+Đố các bạn biết, ngân hàng đầu tiên xuất hiện ở đâu ?
+Các bạn còn muốn nghe chuyện gì về Kinh tế học ? Hãy thả $ và comment cho LOK biết nhé!
+
+---
+Các sản phẩm cùng chủ đề đồng tiền:
+  - LOK #36: Tiền từ đâu đẻ ra? : https://goo.gl/F6kVpt
+  - LOK #1: Hội đốt tiền : https://goo.gl/baV8yK</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-08T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1575</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5868</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">338</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1900663656812948</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1900663656812948/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #36: Tiền từ đâu đẻ ra?
+
+Hẳn là từ nhà máy in tiền rồi!
+Nhưng liệu bạn đã biết Việt Nam có tiền giấy trước châu Âu tận 200 năm lận??!! 
+
+https://youtu.be/CDJYjW9qUoY</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-01T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">138</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1216</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">51</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1901130950099552</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1901130950099552:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Các bạn đã xem 2 video của LOK về đạo Phật chưa? Các bạn nghĩ thế nào về quan điểm dưới đây về đạo Phật của Frederick Nietzsche?
+
+---
+- Đạo Phật phần 1: goo.gl/1GqoGQ
+- Đạo Phật phần 2: goo.gl/K73H43</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-06-30T07:00:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">428</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">37</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+
+<Worksheet ss:Name="Lifetime Post Stories by act...">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Audience Targeting</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">share</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">like</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">comment</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of stories created about your Page post, by action type. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1911244905754823</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1911244905754823/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #39: Trên đời này có gì là miễn phí không ? (Trừ Winrar)
+
+Cảnh giác trước những lời quảng cáo về “miễn phí” nhé, có thể bạn sẽ phải đánh đổi một thứ gì đó mà mình không biết đó :( Chỉ có LOK là miễn phí thôi 😌 Thế nên nếu hay thì thả $ và share để bọn mình có động lực nhé 😘😘
+
+https://youtu.be/n9vKtVJrKxY
+
+---
+Các video khác trong cùng series #LOKKinhTe dành cho các nhà đầu tư tương lai
+- LOK #2: Kinh tế học âm phủ →  https://goo.gl/25occd 
+- LOK #11: Rửa tiền là gì? → https://goo.gl/GXmH27
+- LOK #38: Có phải cứ bán được nhiều là càng lợi ? → goo.gl/gqAAC8
+
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nha: https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-22T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">576</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2506</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">166</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908206009392046</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1908206009392046/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #38: Có phải cứ bán được nhiều là càng lợi ?
+
+Bạn có kinh doanh qua Facebook không ? Bạn đã đóng thuế chưa ? Có phải càng bán nhiều càng có lợi không ? Làm thế nào để cả hai đều đạt sự thoả mãn tối đa - cả người tiêu dùng và doanh nghiệp ? Làm sao để nấu một bát phở ngon ? Hãy xem đến cuối video để tìm hiểu nhé! 
+#LOKKinhTe 
+Xem trên Youtube: https://youtu.be/m19DWNhvQ6w
+
+Nếu thấy hay hãy thả $ và comment bạn muốn LOK làm về chủ đề gì nhé!
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nà: https://tinyurl.com/TienDeRaTien
+---
+Các video khác trong series LOK Kinh tế:
+ - LOK #11: Nợ công là gì ? → https://goo.gl/wae9ZM
+ - LOK #37: Sự tích ngân hàng → https://goo.gl/hn4f6T</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-15T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">985</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3312</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">395</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908312159381431</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1908312159381431:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Thông báo dành cho những ai mê tiền!
+(Hưởng ứng series LOK Kinh tế)
+
+Có lẽ nhiều bạn khi đọc Doraemon đã từng mơ ước đến chiếc &quot;Gương nhân bản&quot; - bảo bối biến 1 thành 2 khi chúng ta soi một vật gì đó lên bề măt. Đồ chơi, đồ ăn, tiền x2 trong nháy mắt (làm giàu không khó). Có lẽ, một ngày khi công nghệ nhân bản phát triển đến mức trở nên phổ biến, điều đó sẽ trở thành hiên thực, chỉ là thực tại đó có thể cách chúng ta cả trăm năm. 
+
+Nhưng bạn có biết, mỗi chúng ta đều đang nắm trong tay quyền năng nhân bản đó -  khả năng làm giàu chân chính bằng cách làm cho đồng tiền sinh sôi nảy nở. Đúng! Chúng tớ đang nói về các hình thức đầu tư tài chính cá nhân! 
+
+Tiết kiệm là quốc sách, nhưng một trong những quy tắc làm giàu mà ai cũng biết đó là: đồng tiền đứng yên là đồng tiền bị thui chột. Bản chất của tiền tệ là xoay vòng, và giờ đây phương châm của thế kỉ mới là: Tiết kiệm để đầu tư!
+
+Chúng tớ muốn thông báo cho các bạn về một dự án lớn của LOK với mục đích thay đổi tư duy của giới trẻ Việt Nam về đầu tư tài chính cá nhân thông qua bộ sản phẩm truyền tải kiến thức mang phong cách sinh động, hấp dẫn và đầy cuốn hút! Một bộ ấn phẩm đa mảng (comic, tuyến khái niệm, chiến lược, thông tin thị trường) chứa đựng những kĩ năng cần thiết cho người mới bắt đầu với đầu tư tài chính, hay như LOK chúng tớ thường gọi vui với nhau là &quot;Cẩm nang cho những ai muốn độc lập tự do&quot;. Thật vậy, nếu bạn mơ đến một ngày đồng tiền sẽ làm việc cho mình, thay vì phải vất vả chạy theo nó để rồi đến cuối tháng bệnh viêm màng túi lại gõ cửa ghé thăm, thì đây là bộ ấn phẩm dành cho bạn!
+
+Để phát triển nội dung và đạt tiến độ ra mắt khán giả vào tháng 10 này, chúng tớ có một bản thăm dò nho nhỏ về thói quen cũng như hiểu biết, tiếp xúc của các bạn về việc tiết kiệm, cũng như đầu tư tài chính. Chúng tớ nghĩ rằng, đã viết, đã truyền tải thì hãy viết, hãy truyền tải những gì các bạn cần, muốn, và thực sự có ích cho các bạn. Không còn những lí thuyết giáo điều, những định lí khô khan, bộ ấn phẩm này hứa hẹn mở ra cho bạn một góc nhìn mới về &quot;tiền đẻ ra tiền&quot;.
+
+Mời các bạn điền survey dưới link sau - LOK xin chân thành cảm ơn các bạn!
+https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-14T06:49:33.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">41</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">455</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">43</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1905515619661085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1905515619661085:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Tuesday Trivia đã quay lại!! 🎉🎉🎉
+
+Cùng nhớ lại những gì LOK đã chia sẻ trong tuần qua nhé.
+Gợi ý cho các bạn cá vàng hay quên nằm ở đây :p
+Tiền từ đâu đẻ ra: https://goo.gl/2VyQNM
+
+#TuesdayTrivia</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-09T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">368</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">13</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1903191989893448</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1903191989893448/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #37: Sự tích ngân hàng
+
+Bạn có biết, ngân hàng là thành phần quan trọng nhất trong hệ thống tài chính ? Nhưng ngân hàng từ đâu mà có ? Lợi nhuận của ngân hàng đến từ đâu ? Làm gì khi Sùng ôm tiền chạy sang Bắc Triều Tiên ?
+
+https://youtu.be/-P4wsnk98II
+#LOKKinhTe #TaleOfBanks
+
+Đố các bạn biết, ngân hàng đầu tiên xuất hiện ở đâu ?
+Các bạn còn muốn nghe chuyện gì về Kinh tế học ? Hãy thả $ và comment cho LOK biết nhé!
+
+---
+Các sản phẩm cùng chủ đề đồng tiền:
+  - LOK #36: Tiền từ đâu đẻ ra? : https://goo.gl/F6kVpt
+  - LOK #1: Hội đốt tiền : https://goo.gl/baV8yK</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-08T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1585</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6091</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">402</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1900663656812948</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1900663656812948/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #36: Tiền từ đâu đẻ ra?
+
+Hẳn là từ nhà máy in tiền rồi!
+Nhưng liệu bạn đã biết Việt Nam có tiền giấy trước châu Âu tận 200 năm lận??!! 
+
+https://youtu.be/CDJYjW9qUoY</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-01T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">143</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1214</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">69</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1901130950099552</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1901130950099552:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Các bạn đã xem 2 video của LOK về đạo Phật chưa? Các bạn nghĩ thế nào về quan điểm dưới đây về đạo Phật của Frederick Nietzsche?
+
+---
+- Đạo Phật phần 1: goo.gl/1GqoGQ
+- Đạo Phật phần 2: goo.gl/K73H43</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-06-30T07:00:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">441</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">64</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+
+<Worksheet ss:Name="Lifetime Post Consumers by type">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Audience Targeting</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">video play</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">other clicks</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">photo view</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">link clicks</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who clicked anywhere in your post, by type. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1911244905754823</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1911244905754823/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #39: Trên đời này có gì là miễn phí không ? (Trừ Winrar)
+
+Cảnh giác trước những lời quảng cáo về “miễn phí” nhé, có thể bạn sẽ phải đánh đổi một thứ gì đó mà mình không biết đó :( Chỉ có LOK là miễn phí thôi 😌 Thế nên nếu hay thì thả $ và share để bọn mình có động lực nhé 😘😘
+
+https://youtu.be/n9vKtVJrKxY
+
+---
+Các video khác trong cùng series #LOKKinhTe dành cho các nhà đầu tư tương lai
+- LOK #2: Kinh tế học âm phủ →  https://goo.gl/25occd 
+- LOK #11: Rửa tiền là gì? → https://goo.gl/GXmH27
+- LOK #38: Có phải cứ bán được nhiều là càng lợi ? → goo.gl/gqAAC8
+
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nha: https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-22T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6855</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5703</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">34</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">167</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908206009392046</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1908206009392046/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #38: Có phải cứ bán được nhiều là càng lợi ?
+
+Bạn có kinh doanh qua Facebook không ? Bạn đã đóng thuế chưa ? Có phải càng bán nhiều càng có lợi không ? Làm thế nào để cả hai đều đạt sự thoả mãn tối đa - cả người tiêu dùng và doanh nghiệp ? Làm sao để nấu một bát phở ngon ? Hãy xem đến cuối video để tìm hiểu nhé! 
+#LOKKinhTe 
+Xem trên Youtube: https://youtu.be/m19DWNhvQ6w
+
+Nếu thấy hay hãy thả $ và comment bạn muốn LOK làm về chủ đề gì nhé!
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nà: https://tinyurl.com/TienDeRaTien
+---
+Các video khác trong series LOK Kinh tế:
+ - LOK #11: Nợ công là gì ? → https://goo.gl/wae9ZM
+ - LOK #37: Sự tích ngân hàng → https://goo.gl/hn4f6T</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-15T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">11354</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">8612</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">59</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">241</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908312159381431</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1908312159381431:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Thông báo dành cho những ai mê tiền!
+(Hưởng ứng series LOK Kinh tế)
+
+Có lẽ nhiều bạn khi đọc Doraemon đã từng mơ ước đến chiếc &quot;Gương nhân bản&quot; - bảo bối biến 1 thành 2 khi chúng ta soi một vật gì đó lên bề măt. Đồ chơi, đồ ăn, tiền x2 trong nháy mắt (làm giàu không khó). Có lẽ, một ngày khi công nghệ nhân bản phát triển đến mức trở nên phổ biến, điều đó sẽ trở thành hiên thực, chỉ là thực tại đó có thể cách chúng ta cả trăm năm. 
+
+Nhưng bạn có biết, mỗi chúng ta đều đang nắm trong tay quyền năng nhân bản đó -  khả năng làm giàu chân chính bằng cách làm cho đồng tiền sinh sôi nảy nở. Đúng! Chúng tớ đang nói về các hình thức đầu tư tài chính cá nhân! 
+
+Tiết kiệm là quốc sách, nhưng một trong những quy tắc làm giàu mà ai cũng biết đó là: đồng tiền đứng yên là đồng tiền bị thui chột. Bản chất của tiền tệ là xoay vòng, và giờ đây phương châm của thế kỉ mới là: Tiết kiệm để đầu tư!
+
+Chúng tớ muốn thông báo cho các bạn về một dự án lớn của LOK với mục đích thay đổi tư duy của giới trẻ Việt Nam về đầu tư tài chính cá nhân thông qua bộ sản phẩm truyền tải kiến thức mang phong cách sinh động, hấp dẫn và đầy cuốn hút! Một bộ ấn phẩm đa mảng (comic, tuyến khái niệm, chiến lược, thông tin thị trường) chứa đựng những kĩ năng cần thiết cho người mới bắt đầu với đầu tư tài chính, hay như LOK chúng tớ thường gọi vui với nhau là &quot;Cẩm nang cho những ai muốn độc lập tự do&quot;. Thật vậy, nếu bạn mơ đến một ngày đồng tiền sẽ làm việc cho mình, thay vì phải vất vả chạy theo nó để rồi đến cuối tháng bệnh viêm màng túi lại gõ cửa ghé thăm, thì đây là bộ ấn phẩm dành cho bạn!
+
+Để phát triển nội dung và đạt tiến độ ra mắt khán giả vào tháng 10 này, chúng tớ có một bản thăm dò nho nhỏ về thói quen cũng như hiểu biết, tiếp xúc của các bạn về việc tiết kiệm, cũng như đầu tư tài chính. Chúng tớ nghĩ rằng, đã viết, đã truyền tải thì hãy viết, hãy truyền tải những gì các bạn cần, muốn, và thực sự có ích cho các bạn. Không còn những lí thuyết giáo điều, những định lí khô khan, bộ ấn phẩm này hứa hẹn mở ra cho bạn một góc nhìn mới về &quot;tiền đẻ ra tiền&quot;.
+
+Mời các bạn điền survey dưới link sau - LOK xin chân thành cảm ơn các bạn!
+https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-14T06:49:33.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1865</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">285</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">203</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1905515619661085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1905515619661085:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Tuesday Trivia đã quay lại!! 🎉🎉🎉
+
+Cùng nhớ lại những gì LOK đã chia sẻ trong tuần qua nhé.
+Gợi ý cho các bạn cá vàng hay quên nằm ở đây :p
+Tiền từ đâu đẻ ra: https://goo.gl/2VyQNM
+
+#TuesdayTrivia</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-09T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">617</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">139</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">91</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1903191989893448</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1903191989893448/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #37: Sự tích ngân hàng
+
+Bạn có biết, ngân hàng là thành phần quan trọng nhất trong hệ thống tài chính ? Nhưng ngân hàng từ đâu mà có ? Lợi nhuận của ngân hàng đến từ đâu ? Làm gì khi Sùng ôm tiền chạy sang Bắc Triều Tiên ?
+
+https://youtu.be/-P4wsnk98II
+#LOKKinhTe #TaleOfBanks
+
+Đố các bạn biết, ngân hàng đầu tiên xuất hiện ở đâu ?
+Các bạn còn muốn nghe chuyện gì về Kinh tế học ? Hãy thả $ và comment cho LOK biết nhé!
+
+---
+Các sản phẩm cùng chủ đề đồng tiền:
+  - LOK #36: Tiền từ đâu đẻ ra? : https://goo.gl/F6kVpt
+  - LOK #1: Hội đốt tiền : https://goo.gl/baV8yK</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-08T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">33485</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">34646</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">88</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">290</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1900663656812948</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1900663656812948/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #36: Tiền từ đâu đẻ ra?
+
+Hẳn là từ nhà máy in tiền rồi!
+Nhưng liệu bạn đã biết Việt Nam có tiền giấy trước châu Âu tận 200 năm lận??!! 
+
+https://youtu.be/CDJYjW9qUoY</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-01T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6459</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4068</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">28</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">42</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1901130950099552</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1901130950099552:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Các bạn đã xem 2 video của LOK về đạo Phật chưa? Các bạn nghĩ thế nào về quan điểm dưới đây về đạo Phật của Frederick Nietzsche?
+
+---
+- Đạo Phật phần 1: goo.gl/1GqoGQ
+- Đạo Phật phần 2: goo.gl/K73H43</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-06-30T07:00:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1064</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">230</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">213</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+
+<Worksheet ss:Name="Lifetime Post Consumptions b...">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Audience Targeting</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">video play</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">other clicks</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">photo view</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">link clicks</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of clicks anywhere in your post, by type. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1911244905754823</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1911244905754823/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #39: Trên đời này có gì là miễn phí không ? (Trừ Winrar)
+
+Cảnh giác trước những lời quảng cáo về “miễn phí” nhé, có thể bạn sẽ phải đánh đổi một thứ gì đó mà mình không biết đó :( Chỉ có LOK là miễn phí thôi 😌 Thế nên nếu hay thì thả $ và share để bọn mình có động lực nhé 😘😘
+
+https://youtu.be/n9vKtVJrKxY
+
+---
+Các video khác trong cùng series #LOKKinhTe dành cho các nhà đầu tư tương lai
+- LOK #2: Kinh tế học âm phủ →  https://goo.gl/25occd 
+- LOK #11: Rửa tiền là gì? → https://goo.gl/GXmH27
+- LOK #38: Có phải cứ bán được nhiều là càng lợi ? → goo.gl/gqAAC8
+
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nha: https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-22T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6936</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">7240</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">38</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">240</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908206009392046</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1908206009392046/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #38: Có phải cứ bán được nhiều là càng lợi ?
+
+Bạn có kinh doanh qua Facebook không ? Bạn đã đóng thuế chưa ? Có phải càng bán nhiều càng có lợi không ? Làm thế nào để cả hai đều đạt sự thoả mãn tối đa - cả người tiêu dùng và doanh nghiệp ? Làm sao để nấu một bát phở ngon ? Hãy xem đến cuối video để tìm hiểu nhé! 
+#LOKKinhTe 
+Xem trên Youtube: https://youtu.be/m19DWNhvQ6w
+
+Nếu thấy hay hãy thả $ và comment bạn muốn LOK làm về chủ đề gì nhé!
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nà: https://tinyurl.com/TienDeRaTien
+---
+Các video khác trong series LOK Kinh tế:
+ - LOK #11: Nợ công là gì ? → https://goo.gl/wae9ZM
+ - LOK #37: Sự tích ngân hàng → https://goo.gl/hn4f6T</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-15T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12288</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">11681</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">69</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">286</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908312159381431</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1908312159381431:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Thông báo dành cho những ai mê tiền!
+(Hưởng ứng series LOK Kinh tế)
+
+Có lẽ nhiều bạn khi đọc Doraemon đã từng mơ ước đến chiếc &quot;Gương nhân bản&quot; - bảo bối biến 1 thành 2 khi chúng ta soi một vật gì đó lên bề măt. Đồ chơi, đồ ăn, tiền x2 trong nháy mắt (làm giàu không khó). Có lẽ, một ngày khi công nghệ nhân bản phát triển đến mức trở nên phổ biến, điều đó sẽ trở thành hiên thực, chỉ là thực tại đó có thể cách chúng ta cả trăm năm. 
+
+Nhưng bạn có biết, mỗi chúng ta đều đang nắm trong tay quyền năng nhân bản đó -  khả năng làm giàu chân chính bằng cách làm cho đồng tiền sinh sôi nảy nở. Đúng! Chúng tớ đang nói về các hình thức đầu tư tài chính cá nhân! 
+
+Tiết kiệm là quốc sách, nhưng một trong những quy tắc làm giàu mà ai cũng biết đó là: đồng tiền đứng yên là đồng tiền bị thui chột. Bản chất của tiền tệ là xoay vòng, và giờ đây phương châm của thế kỉ mới là: Tiết kiệm để đầu tư!
+
+Chúng tớ muốn thông báo cho các bạn về một dự án lớn của LOK với mục đích thay đổi tư duy của giới trẻ Việt Nam về đầu tư tài chính cá nhân thông qua bộ sản phẩm truyền tải kiến thức mang phong cách sinh động, hấp dẫn và đầy cuốn hút! Một bộ ấn phẩm đa mảng (comic, tuyến khái niệm, chiến lược, thông tin thị trường) chứa đựng những kĩ năng cần thiết cho người mới bắt đầu với đầu tư tài chính, hay như LOK chúng tớ thường gọi vui với nhau là &quot;Cẩm nang cho những ai muốn độc lập tự do&quot;. Thật vậy, nếu bạn mơ đến một ngày đồng tiền sẽ làm việc cho mình, thay vì phải vất vả chạy theo nó để rồi đến cuối tháng bệnh viêm màng túi lại gõ cửa ghé thăm, thì đây là bộ ấn phẩm dành cho bạn!
+
+Để phát triển nội dung và đạt tiến độ ra mắt khán giả vào tháng 10 này, chúng tớ có một bản thăm dò nho nhỏ về thói quen cũng như hiểu biết, tiếp xúc của các bạn về việc tiết kiệm, cũng như đầu tư tài chính. Chúng tớ nghĩ rằng, đã viết, đã truyền tải thì hãy viết, hãy truyền tải những gì các bạn cần, muốn, và thực sự có ích cho các bạn. Không còn những lí thuyết giáo điều, những định lí khô khan, bộ ấn phẩm này hứa hẹn mở ra cho bạn một góc nhìn mới về &quot;tiền đẻ ra tiền&quot;.
+
+Mời các bạn điền survey dưới link sau - LOK xin chân thành cảm ơn các bạn!
+https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-14T06:49:33.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2342</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">439</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">211</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1905515619661085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1905515619661085:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Tuesday Trivia đã quay lại!! 🎉🎉🎉
+
+Cùng nhớ lại những gì LOK đã chia sẻ trong tuần qua nhé.
+Gợi ý cho các bạn cá vàng hay quên nằm ở đây :p
+Tiền từ đâu đẻ ra: https://goo.gl/2VyQNM
+
+#TuesdayTrivia</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-09T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">758</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">218</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">92</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1903191989893448</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1903191989893448/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #37: Sự tích ngân hàng
+
+Bạn có biết, ngân hàng là thành phần quan trọng nhất trong hệ thống tài chính ? Nhưng ngân hàng từ đâu mà có ? Lợi nhuận của ngân hàng đến từ đâu ? Làm gì khi Sùng ôm tiền chạy sang Bắc Triều Tiên ?
+
+https://youtu.be/-P4wsnk98II
+#LOKKinhTe #TaleOfBanks
+
+Đố các bạn biết, ngân hàng đầu tiên xuất hiện ở đâu ?
+Các bạn còn muốn nghe chuyện gì về Kinh tế học ? Hãy thả $ và comment cho LOK biết nhé!
+
+---
+Các sản phẩm cùng chủ đề đồng tiền:
+  - LOK #36: Tiền từ đâu đẻ ra? : https://goo.gl/F6kVpt
+  - LOK #1: Hội đốt tiền : https://goo.gl/baV8yK</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-08T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">35903</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">44883</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">103</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">317</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1900663656812948</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1900663656812948/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #36: Tiền từ đâu đẻ ra?
+
+Hẳn là từ nhà máy in tiền rồi!
+Nhưng liệu bạn đã biết Việt Nam có tiền giấy trước châu Âu tận 200 năm lận??!! 
+
+https://youtu.be/CDJYjW9qUoY</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-01T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6719</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5368</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">34</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">43</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1901130950099552</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1901130950099552:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Các bạn đã xem 2 video của LOK về đạo Phật chưa? Các bạn nghĩ thế nào về quan điểm dưới đây về đạo Phật của Frederick Nietzsche?
+
+---
+- Đạo Phật phần 1: goo.gl/1GqoGQ
+- Đạo Phật phần 2: goo.gl/K73H43</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-06-30T07:00:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1712</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">346</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">312</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+
+<Worksheet ss:Name="Lifetime Negative Feedback f...">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Audience Targeting</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">hide_all_clicks</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">hide_clicks</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">unlike_page_clicks</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of times people have given negative feedback to your post, by type. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1911244905754823</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1911244905754823/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #39: Trên đời này có gì là miễn phí không ? (Trừ Winrar)
+
+Cảnh giác trước những lời quảng cáo về “miễn phí” nhé, có thể bạn sẽ phải đánh đổi một thứ gì đó mà mình không biết đó :( Chỉ có LOK là miễn phí thôi 😌 Thế nên nếu hay thì thả $ và share để bọn mình có động lực nhé 😘😘
+
+https://youtu.be/n9vKtVJrKxY
+
+---
+Các video khác trong cùng series #LOKKinhTe dành cho các nhà đầu tư tương lai
+- LOK #2: Kinh tế học âm phủ →  https://goo.gl/25occd 
+- LOK #11: Rửa tiền là gì? → https://goo.gl/GXmH27
+- LOK #38: Có phải cứ bán được nhiều là càng lợi ? → goo.gl/gqAAC8
+
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nha: https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-22T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908206009392046</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1908206009392046/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #38: Có phải cứ bán được nhiều là càng lợi ?
+
+Bạn có kinh doanh qua Facebook không ? Bạn đã đóng thuế chưa ? Có phải càng bán nhiều càng có lợi không ? Làm thế nào để cả hai đều đạt sự thoả mãn tối đa - cả người tiêu dùng và doanh nghiệp ? Làm sao để nấu một bát phở ngon ? Hãy xem đến cuối video để tìm hiểu nhé! 
+#LOKKinhTe 
+Xem trên Youtube: https://youtu.be/m19DWNhvQ6w
+
+Nếu thấy hay hãy thả $ và comment bạn muốn LOK làm về chủ đề gì nhé!
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nà: https://tinyurl.com/TienDeRaTien
+---
+Các video khác trong series LOK Kinh tế:
+ - LOK #11: Nợ công là gì ? → https://goo.gl/wae9ZM
+ - LOK #37: Sự tích ngân hàng → https://goo.gl/hn4f6T</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-15T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908312159381431</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1908312159381431:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Thông báo dành cho những ai mê tiền!
+(Hưởng ứng series LOK Kinh tế)
+
+Có lẽ nhiều bạn khi đọc Doraemon đã từng mơ ước đến chiếc &quot;Gương nhân bản&quot; - bảo bối biến 1 thành 2 khi chúng ta soi một vật gì đó lên bề măt. Đồ chơi, đồ ăn, tiền x2 trong nháy mắt (làm giàu không khó). Có lẽ, một ngày khi công nghệ nhân bản phát triển đến mức trở nên phổ biến, điều đó sẽ trở thành hiên thực, chỉ là thực tại đó có thể cách chúng ta cả trăm năm. 
+
+Nhưng bạn có biết, mỗi chúng ta đều đang nắm trong tay quyền năng nhân bản đó -  khả năng làm giàu chân chính bằng cách làm cho đồng tiền sinh sôi nảy nở. Đúng! Chúng tớ đang nói về các hình thức đầu tư tài chính cá nhân! 
+
+Tiết kiệm là quốc sách, nhưng một trong những quy tắc làm giàu mà ai cũng biết đó là: đồng tiền đứng yên là đồng tiền bị thui chột. Bản chất của tiền tệ là xoay vòng, và giờ đây phương châm của thế kỉ mới là: Tiết kiệm để đầu tư!
+
+Chúng tớ muốn thông báo cho các bạn về một dự án lớn của LOK với mục đích thay đổi tư duy của giới trẻ Việt Nam về đầu tư tài chính cá nhân thông qua bộ sản phẩm truyền tải kiến thức mang phong cách sinh động, hấp dẫn và đầy cuốn hút! Một bộ ấn phẩm đa mảng (comic, tuyến khái niệm, chiến lược, thông tin thị trường) chứa đựng những kĩ năng cần thiết cho người mới bắt đầu với đầu tư tài chính, hay như LOK chúng tớ thường gọi vui với nhau là &quot;Cẩm nang cho những ai muốn độc lập tự do&quot;. Thật vậy, nếu bạn mơ đến một ngày đồng tiền sẽ làm việc cho mình, thay vì phải vất vả chạy theo nó để rồi đến cuối tháng bệnh viêm màng túi lại gõ cửa ghé thăm, thì đây là bộ ấn phẩm dành cho bạn!
+
+Để phát triển nội dung và đạt tiến độ ra mắt khán giả vào tháng 10 này, chúng tớ có một bản thăm dò nho nhỏ về thói quen cũng như hiểu biết, tiếp xúc của các bạn về việc tiết kiệm, cũng như đầu tư tài chính. Chúng tớ nghĩ rằng, đã viết, đã truyền tải thì hãy viết, hãy truyền tải những gì các bạn cần, muốn, và thực sự có ích cho các bạn. Không còn những lí thuyết giáo điều, những định lí khô khan, bộ ấn phẩm này hứa hẹn mở ra cho bạn một góc nhìn mới về &quot;tiền đẻ ra tiền&quot;.
+
+Mời các bạn điền survey dưới link sau - LOK xin chân thành cảm ơn các bạn!
+https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-14T06:49:33.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1905515619661085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1905515619661085:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Tuesday Trivia đã quay lại!! 🎉🎉🎉
+
+Cùng nhớ lại những gì LOK đã chia sẻ trong tuần qua nhé.
+Gợi ý cho các bạn cá vàng hay quên nằm ở đây :p
+Tiền từ đâu đẻ ra: https://goo.gl/2VyQNM
+
+#TuesdayTrivia</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-09T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1903191989893448</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1903191989893448/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #37: Sự tích ngân hàng
+
+Bạn có biết, ngân hàng là thành phần quan trọng nhất trong hệ thống tài chính ? Nhưng ngân hàng từ đâu mà có ? Lợi nhuận của ngân hàng đến từ đâu ? Làm gì khi Sùng ôm tiền chạy sang Bắc Triều Tiên ?
+
+https://youtu.be/-P4wsnk98II
+#LOKKinhTe #TaleOfBanks
+
+Đố các bạn biết, ngân hàng đầu tiên xuất hiện ở đâu ?
+Các bạn còn muốn nghe chuyện gì về Kinh tế học ? Hãy thả $ và comment cho LOK biết nhé!
+
+---
+Các sản phẩm cùng chủ đề đồng tiền:
+  - LOK #36: Tiền từ đâu đẻ ra? : https://goo.gl/F6kVpt
+  - LOK #1: Hội đốt tiền : https://goo.gl/baV8yK</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-08T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">13</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">23</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1900663656812948</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1900663656812948/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #36: Tiền từ đâu đẻ ra?
+
+Hẳn là từ nhà máy in tiền rồi!
+Nhưng liệu bạn đã biết Việt Nam có tiền giấy trước châu Âu tận 200 năm lận??!! 
+
+https://youtu.be/CDJYjW9qUoY</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-01T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1901130950099552</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1901130950099552:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Các bạn đã xem 2 video của LOK về đạo Phật chưa? Các bạn nghĩ thế nào về quan điểm dưới đây về đạo Phật của Frederick Nietzsche?
+
+---
+- Đạo Phật phần 1: goo.gl/1GqoGQ
+- Đạo Phật phần 2: goo.gl/K73H43</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-06-30T07:00:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+
+<Worksheet ss:Name="Lifetime Negative Feedback">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Audience Targeting</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">hide_all_clicks</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">hide_clicks</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">unlike_page_clicks</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who have given negative feedback to your post, by type. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1911244905754823</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1911244905754823/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #39: Trên đời này có gì là miễn phí không ? (Trừ Winrar)
+
+Cảnh giác trước những lời quảng cáo về “miễn phí” nhé, có thể bạn sẽ phải đánh đổi một thứ gì đó mà mình không biết đó :( Chỉ có LOK là miễn phí thôi 😌 Thế nên nếu hay thì thả $ và share để bọn mình có động lực nhé 😘😘
+
+https://youtu.be/n9vKtVJrKxY
+
+---
+Các video khác trong cùng series #LOKKinhTe dành cho các nhà đầu tư tương lai
+- LOK #2: Kinh tế học âm phủ →  https://goo.gl/25occd 
+- LOK #11: Rửa tiền là gì? → https://goo.gl/GXmH27
+- LOK #38: Có phải cứ bán được nhiều là càng lợi ? → goo.gl/gqAAC8
+
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nha: https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-22T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908206009392046</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1908206009392046/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #38: Có phải cứ bán được nhiều là càng lợi ?
+
+Bạn có kinh doanh qua Facebook không ? Bạn đã đóng thuế chưa ? Có phải càng bán nhiều càng có lợi không ? Làm thế nào để cả hai đều đạt sự thoả mãn tối đa - cả người tiêu dùng và doanh nghiệp ? Làm sao để nấu một bát phở ngon ? Hãy xem đến cuối video để tìm hiểu nhé! 
+#LOKKinhTe 
+Xem trên Youtube: https://youtu.be/m19DWNhvQ6w
+
+Nếu thấy hay hãy thả $ và comment bạn muốn LOK làm về chủ đề gì nhé!
+Ngoài ra đừng quên giúp LOK làm khảo sát ở đây nà: https://tinyurl.com/TienDeRaTien
+---
+Các video khác trong series LOK Kinh tế:
+ - LOK #11: Nợ công là gì ? → https://goo.gl/wae9ZM
+ - LOK #37: Sự tích ngân hàng → https://goo.gl/hn4f6T</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-15T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1908312159381431</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1908312159381431:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Thông báo dành cho những ai mê tiền!
+(Hưởng ứng series LOK Kinh tế)
+
+Có lẽ nhiều bạn khi đọc Doraemon đã từng mơ ước đến chiếc &quot;Gương nhân bản&quot; - bảo bối biến 1 thành 2 khi chúng ta soi một vật gì đó lên bề măt. Đồ chơi, đồ ăn, tiền x2 trong nháy mắt (làm giàu không khó). Có lẽ, một ngày khi công nghệ nhân bản phát triển đến mức trở nên phổ biến, điều đó sẽ trở thành hiên thực, chỉ là thực tại đó có thể cách chúng ta cả trăm năm. 
+
+Nhưng bạn có biết, mỗi chúng ta đều đang nắm trong tay quyền năng nhân bản đó -  khả năng làm giàu chân chính bằng cách làm cho đồng tiền sinh sôi nảy nở. Đúng! Chúng tớ đang nói về các hình thức đầu tư tài chính cá nhân! 
+
+Tiết kiệm là quốc sách, nhưng một trong những quy tắc làm giàu mà ai cũng biết đó là: đồng tiền đứng yên là đồng tiền bị thui chột. Bản chất của tiền tệ là xoay vòng, và giờ đây phương châm của thế kỉ mới là: Tiết kiệm để đầu tư!
+
+Chúng tớ muốn thông báo cho các bạn về một dự án lớn của LOK với mục đích thay đổi tư duy của giới trẻ Việt Nam về đầu tư tài chính cá nhân thông qua bộ sản phẩm truyền tải kiến thức mang phong cách sinh động, hấp dẫn và đầy cuốn hút! Một bộ ấn phẩm đa mảng (comic, tuyến khái niệm, chiến lược, thông tin thị trường) chứa đựng những kĩ năng cần thiết cho người mới bắt đầu với đầu tư tài chính, hay như LOK chúng tớ thường gọi vui với nhau là &quot;Cẩm nang cho những ai muốn độc lập tự do&quot;. Thật vậy, nếu bạn mơ đến một ngày đồng tiền sẽ làm việc cho mình, thay vì phải vất vả chạy theo nó để rồi đến cuối tháng bệnh viêm màng túi lại gõ cửa ghé thăm, thì đây là bộ ấn phẩm dành cho bạn!
+
+Để phát triển nội dung và đạt tiến độ ra mắt khán giả vào tháng 10 này, chúng tớ có một bản thăm dò nho nhỏ về thói quen cũng như hiểu biết, tiếp xúc của các bạn về việc tiết kiệm, cũng như đầu tư tài chính. Chúng tớ nghĩ rằng, đã viết, đã truyền tải thì hãy viết, hãy truyền tải những gì các bạn cần, muốn, và thực sự có ích cho các bạn. Không còn những lí thuyết giáo điều, những định lí khô khan, bộ ấn phẩm này hứa hẹn mở ra cho bạn một góc nhìn mới về &quot;tiền đẻ ra tiền&quot;.
+
+Mời các bạn điền survey dưới link sau - LOK xin chân thành cảm ơn các bạn!
+https://tinyurl.com/TienDeRaTien</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-14T06:49:33.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1905515619661085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1905515619661085:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Tuesday Trivia đã quay lại!! 🎉🎉🎉
+
+Cùng nhớ lại những gì LOK đã chia sẻ trong tuần qua nhé.
+Gợi ý cho các bạn cá vàng hay quên nằm ở đây :p
+Tiền từ đâu đẻ ra: https://goo.gl/2VyQNM
+
+#TuesdayTrivia</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-09T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1903191989893448</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1903191989893448/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #37: Sự tích ngân hàng
+
+Bạn có biết, ngân hàng là thành phần quan trọng nhất trong hệ thống tài chính ? Nhưng ngân hàng từ đâu mà có ? Lợi nhuận của ngân hàng đến từ đâu ? Làm gì khi Sùng ôm tiền chạy sang Bắc Triều Tiên ?
+
+https://youtu.be/-P4wsnk98II
+#LOKKinhTe #TaleOfBanks
+
+Đố các bạn biết, ngân hàng đầu tiên xuất hiện ở đâu ?
+Các bạn còn muốn nghe chuyện gì về Kinh tế học ? Hãy thả $ và comment cho LOK biết nhé!
+
+---
+Các sản phẩm cùng chủ đề đồng tiền:
+  - LOK #36: Tiền từ đâu đẻ ra? : https://goo.gl/F6kVpt
+  - LOK #1: Hội đốt tiền : https://goo.gl/baV8yK</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-08T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">22</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1900663656812948</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/videos/1900663656812948/</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">LOK #36: Tiền từ đâu đẻ ra?
+
+Hẳn là từ nhà máy in tiền rồi!
+Nhưng liệu bạn đã biết Việt Nam có tiền giấy trước châu Âu tận 200 năm lận??!! 
+
+https://youtu.be/CDJYjW9qUoY</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Video</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-07-01T05:30:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1553363564876294_1901130950099552</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/lokvietnam/posts/1901130950099552:0</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Các bạn đã xem 2 video của LOK về đạo Phật chưa? Các bạn nghĩ thế nào về quan điểm dưới đây về đạo Phật của Frederick Nietzsche?
+
+---
+- Đạo Phật phần 1: goo.gl/1GqoGQ
+- Đạo Phật phần 2: goo.gl/K73H43</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2017-06-30T07:00:00.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>
