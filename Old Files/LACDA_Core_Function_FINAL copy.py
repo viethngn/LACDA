@@ -2,21 +2,22 @@ import xlrd
 import datetime
 import texttable as tt 
 from docx import Document
-from docx.shared import Inches
-from docx.enum.table import WD_TABLE_ALIGNMENT
 
 class LACDA_Core:
+	date1 = input("Report's start date: ")
+	print(date1)
+	date2 = input("Report's end date: ")
+	print(date2)
+	month = input("Report's month: ")
+	print(month)
+	string = input("Name of the insights xlsx file: ")
+	print(string)
+	print()
 
-	def __init__(self, start_date, end_date, month, file_name):
-		self.start_date = start_date
-		self.end_date = end_date
-		self.month = month
-		self.file_name = file_name
-
-		self.file = xlrd.open_workbook(self.file_name)
-		#"Facebook Insights Data Export (Post Level) - LOK - 2017-11-19.xlsx"
-		self.main_sheet = self.file.sheet_by_name("Key Metrics")
-		self.minor_sheet = self.file.sheet_by_name("Lifetime Talking About This(...")
+	file = xlrd.open_workbook(string)
+	#"Facebook Insights Data Export (Post Level) - LOK - 2017-07-27.xlsx"
+	main_sheet = file.sheet_by_name("Key Metrics")
+	minor_sheet = file.sheet_by_name("Lifetime Talking About This(...")
 	data_col = {}
 
 	data_entry = ["Post ID", 
@@ -206,7 +207,7 @@ class LACDA_Core:
 		paid_index = self.get_col_index("Lifetime: The number of people your advertised Page post was served to. (Unique Users)", self.main_sheet)
 		promotion_ratio = {'audience': [], 'watch_time': [], 'reach': [] }
 		for index in range(self.main_sheet.nrows):
-			if self.main_sheet.cell(index, link_index).value == Permalink:
+			if self.main_sheet.cell(index, 1).value == Permalink:
 				if self.main_sheet.cell(index, unique_unpaid_index).value == 0:
 					promotion_ratio['audience'].append(0)
 					promotion_ratio['watch_time'].append(0)
@@ -216,19 +217,6 @@ class LACDA_Core:
 					promotion_ratio['watch_time'].append(round(self.main_sheet.cell(index, total_paid_index).value*100 / (self.main_sheet.cell(index, total_paid_index).value + self.main_sheet.cell(index, total_unpaid_index).value), 3))
 					promotion_ratio['reach'].append(round(self.main_sheet.cell(index, paid_index).value*100 / (self.main_sheet.cell(index, unpaid_index).value + self.main_sheet.cell(index, paid_index).value), 3))
 		return promotion_ratio
-
-	def post_time(self, Permalink):
-		time_index = self.get_col_index("Posted", self.main_sheet)		
-		link_index = self.get_col_index("Permalink", self.main_sheet)
-		time = {'year': 0, 'month': 0, 'day': 0, 'hour': 0, 'minute': 0, 'second': 0}
-
-		for index in range(2, self.main_sheet.nrows):
-			if self.main_sheet.cell(index, link_index).value == Permalink:
-				time['year'], time['month'], time['day'], time['hour'], time['minute'], time['second'] = (xlrd.xldate_as_tuple(self.main_sheet.cell(index, time_index).value, self.file.datemode))
-				break
-		return time
-
-
 
 	def print(self):
 		post_index = self.get_col_index("Post Message", self.main_sheet)
@@ -340,23 +328,14 @@ class LACDA_Core:
 
 		document = Document()
 
-		#changing the page margins
-		sections = document.sections
-		for section in sections:
-			section.top_margin = Inches(0.5)
-			section.bottom_margin = Inches(0.5)
-			section.left_margin = Inches(0.5)
-			section.right_margin = Inches(0.5)
-
 		document.add_heading('LOK POST PERFORMANCE WEEKLY REPORT', 0)
 		p1 = document.add_paragraph('từ ')
-		p1.add_run(self.start_date + '/' + self.month).bold = True
+		p1.add_run(self.date1 + '/' + self.month).bold = True
 		p1.add_run(' đến ')
-		p1.add_run(self.end_date + '/' + self.month).bold = True
+		p1.add_run(self.date2 + '/' + self.month).bold = True
 
 		document.add_heading('I. Theo thời lượng của post', level = 1)
 		table1 = document.add_table(1, cols = 5, style = 'Table Grid')
-		table1.alignment = WD_TABLE_ALIGNMENT.CENTER
 		hd1 = table1.rows[0].cells
 		headings1 = ['Post name', 'Hình thức', 'Thời lượng trung bình', 'Trung bình/Full', 'Tỉ lệ xem hết 95%']
 		for i in range(5):
@@ -368,7 +347,7 @@ class LACDA_Core:
 			n2 = self.get_duration_ratio(link)
 			n3 = self.get_audience_ratio(link)
 			l1 = []
-			l1.append(str(name[:25]))
+			l1.append(str(name[:10]))
 			l1.append(self.main_sheet.cell(index, type_index).value)
 			l1.append(n1)
 			l1.append(n2)
@@ -379,7 +358,6 @@ class LACDA_Core:
 
 		document.add_heading('II. Theo thời gian post', level = 1)
 		table2 = document.add_table(1, cols = 6, style = 'Table Grid')
-		table2.alignment = WD_TABLE_ALIGNMENT.CENTER
 		hd2 = table2.rows[0].cells
 		headings2 = ['Post name', 'Hình thức', 'Thời gian post', 'Tỉ lệ like', 'Tỉ lệ share', 'Tỉ lệ comment']
 		for i in range(6):
@@ -387,11 +365,10 @@ class LACDA_Core:
 		for index in range(2, self.main_sheet.nrows):
 			link = self.main_sheet.cell(index, link_index).value
 			name = self.main_sheet.cell(index, post_index).value
-			year, month, day, hour, minute, second = (xlrd.xldate_as_tuple(self.main_sheet.cell(index, time_index).value, self.file.datemode))
-			time = "%s:%s %s/%s/%s" % (hour, minute, day, month, year)
+			time = (xlrd.xldate_as_tuple(self.main_sheet.cell(index, time_index).value, self.file.datemode))
 			ratio = self.get_reaction_ratio(link)
 			l2 = []
-			l2.append(str(name[:25]))
+			l2.append(str(name[:10]))
 			l2.append(self.main_sheet.cell(index, type_index).value)
 			l2.append(time)
 			l2.append(ratio['like'])
@@ -403,7 +380,6 @@ class LACDA_Core:
 
 		document.add_heading('III. Hiệu quả của promotion', level = 1)
 		table3 = document.add_table(1, cols = 5, style = 'Table Grid')
-		table3.alignment = WD_TABLE_ALIGNMENT.CENTER
 		hd3 = table3.rows[0].cells
 		headings3 = ['Post name', 'Hình thức', 'Lượng khán giả', 'Lượt xem', 'Lượng reach'] 
 		for i in range(5):
@@ -413,7 +389,7 @@ class LACDA_Core:
 			name = self.main_sheet.cell(index, post_index).value
 			ratio = self.get_promotion_ratio(link)
 			l3 = []
-			l3.append(str(name[:25]))
+			l3.append(str(name[:10]))
 			l3.append(self.main_sheet.cell(index, type_index).value)
 			l3.append(ratio['audience'][0])
 			l3.append(ratio['watch_time'][0])
@@ -421,10 +397,6 @@ class LACDA_Core:
 			row_cells = table3.add_row().cells
 			for j in range(5):
 				row_cells[j].text = str(l3[j])
-
-		#document.save('/Users/viethongnguyen/Desktop/CSSubmissions/Test/report.docx')
-		#Open the document
-		#document = Document('/Users/viethongnguyen/Desktop/CSSubmissions/Test/report.docx')
 
 		document.save('/Users/viethongnguyen/Desktop/CSSubmissions/Test/report.docx')
 
@@ -434,12 +406,12 @@ class LACDA_Core:
 
 
 
-'''def main():
+def main():
 	test = LACDA_Core()
 	test.export_docx()
 	#test.print()
 	
-	print(test.get_like("https://www.facebook.com/lokvietnam/videos/1911244905754823/"))
+	'''print(test.get_like("https://www.facebook.com/lokvietnam/videos/1911244905754823/"))
 	print(test.get_share("https://www.facebook.com/lokvietnam/videos/1911244905754823/"))
 	print(test.get_like("https://www.facebook.com/lokvietnam/videos/1900663656812948/"))
 	print(test.get_reach("https://www.facebook.com/lokvietnam/videos/1900663656812948/"))
@@ -447,6 +419,6 @@ class LACDA_Core:
 	print(test.get_audience_ratio("https://www.facebook.com/lokvietnam/videos/1900663656812948/"))
 	print(test.get_average_duration("https://www.facebook.com/lokvietnam/videos/1911244905754823/"))
 	print(test.get_duration_ratio("https://www.facebook.com/lokvietnam/videos/1911244905754823/"))
-	print(test.get_promotion_ratio("https://www.facebook.com/lokvietnam/videos/1911244905754823/"))
+	print(test.get_promotion_ratio("https://www.facebook.com/lokvietnam/videos/1911244905754823/"))'''
 
-main()'''
+main()
