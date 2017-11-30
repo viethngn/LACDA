@@ -129,3 +129,13 @@ class Hour_Analysis:
 
 	def norm_prob_between (self, x, y, array):
 		return round(scipy.stats.norm(loc = self.mean(array), scale = self.std_dev(array)).cdf(y) - scipy.stats.norm(loc = self.mean(array), scale = self.std_dev(array)).cdf(x), 5)
+
+	def highest_value(self, array):
+		self.mergesort(array)
+		return array[len(array) - 1]
+
+	def highest_time_like(self):
+		temp = []
+		for item in self.Interval():
+			temp.append(self.highest_value(item['like']))
+
